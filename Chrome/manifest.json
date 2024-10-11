@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "libdoge MV3",
+  "description": "such god doge, but in Mv3",
+  "version": "0.2",
+  "icons": {
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_title": "doge go | Manifest Version 3 build",
+    "default_icon": "img/icon-19.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/*; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com/*; img-src 'self' https://raw.github.com/"
+  }
+}
