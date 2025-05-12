@@ -4,7 +4,7 @@
 
   "name": "libdoge",
   "description": "such god doge",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "options_page": "options.html",
 
   "icons": {
